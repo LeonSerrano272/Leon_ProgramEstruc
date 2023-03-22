@@ -23,6 +23,7 @@ int main()
     std::cout << "Hola " << nombre << " \nBienvenido al mundo de " << namertag
         << std::endl;
     std::cout << std::endl;
+    std::cout << " A continuacion tu resultados de la pelea\n "; 
     //Operadores Aritmeticos
     //+ - * / ^2 raiz
     std::cout << "Tu vida es: " << Vida << std::endl; 
@@ -31,5 +32,5 @@ int main()
     float Vida_Aux = 0;
     Vida_Aux = Vida - ataque;
     std::cout << "Tu vida restante es: " << Vida_Aux << std::endl;
-
+    
 }
