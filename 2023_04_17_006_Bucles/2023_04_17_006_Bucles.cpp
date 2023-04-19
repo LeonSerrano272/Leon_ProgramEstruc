@@ -8,30 +8,47 @@
 //
 
 #include <iostream>
+#include <locale.h> 
 
 int main()
 {
-    int Jug = 0;
-    int opc = 0;
-    std::cout << "Bienvenidos al torno de las artes marciales!!!   \n  ¿Cuantos peleadores participaran?"; 
+setlocale(LC_ALL, "es_MX.UFT-8"); 
+int Jug = 0; 
+int MejorP = 0;
+int Rondas= 0;
+int Grupo = 0;
+int Semi = 0;
+int Final = 0; 
+    std::cout << "Bienvenidos al torneo de las artes marciales!!!   \n  ¿Cuantos peleadores participaran?" << std::endl;
     std::cin >> Jug;
     std::cout << "Genial! Participaremos " << Jug << " peleadores \n";
-    std::cout << "Ahora dime como pelearemos? \n 1) Royal rumble \n2) Eliminatoria Directa \n3) Grupos, semifinal y final \n"; 
-    switch (opc)
+    std::cout << "Ahora dime como pelearemos? \n 1) Royal rumble \n2) Eliminatoria Directa \n3) Grupos, semifinal y final \n" << std::endl;
+    std::cin >> MejorP; 
+    switch (MejorP) 
     {
     case 1:
-        std::cout << "De acuerdo! \n El ultimo hombre en pie gana!\n";
-        
+        for (int i = 1; i < Jug ; i++) {
+            Rondas= (Jug  - i) + Rondas;
+        std::cout << "De acuerdo! \n El ultimo hombre en pie gana!\n" << std::endl; 
+        std::cout << "Suerte en tus " << Rondas << " Rondas" << std::endl; 
         break;
 
     case 2:
+        MejorP   = (Jug  - 1);
         std::cout << "Eliminacion Directa entonces! \n";
-        
+        std::cout << "Serán " << MejorP << " Pelas, suerte!" << std::endl;
         break;
 
     case 3: 
-        std::cout << "Peledores a sus respectivos grupos! \n";
+        Grupo = ( Jug  / 4);
+        for (int t = 1; t < Grupo ; t++) {
+            Rondas = (Grupo - t) + Rondas;
 
+        }
+        Final  = Rondas   * 4;
+        Semi = Final + 3;
+        std::cout << "Peledores a sus respectivos grupos! \n";
+        std::cout << "Pelearan en " << Semi << " Batallas, Suerte!!! " << std::endl; 
         break;
 
     default:
