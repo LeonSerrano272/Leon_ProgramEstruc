@@ -14,7 +14,7 @@ int main()
    std::cin >> a;
     absoluto = abs(a);
    std::cout << "El absoluto de " << a << " es " << absoluto;
-    return 0;
+ 
     
 
 
