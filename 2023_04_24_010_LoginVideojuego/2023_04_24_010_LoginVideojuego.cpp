@@ -4,9 +4,11 @@
 #include <iostream>
 #include <locale.h>
 #include <string> 
+#include <stdlib.h>
 
 int main()
 {
+	system("Color 02"); 
 	setlocale(LC_ALL, "es_MX.UTF-8");
 	int Opc = 0;
 	std::string Password = "test";
