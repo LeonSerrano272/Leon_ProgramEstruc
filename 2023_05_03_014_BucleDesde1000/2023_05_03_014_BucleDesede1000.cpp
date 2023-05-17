@@ -19,7 +19,7 @@ int main()
 
     while (true)
     {
-        std::cout << "Hola que quieres hacer? 1.- Calculadora con creditos 2.- Contar hasta 100 lento 3.- Contar de 10 en 10 " << std::endl;
+        std::cout << "Hola que quieres hacer? 1.- Calculadora con creditos 2.- Contar hasta 100 lento 3.- Contar de 10 en 10  4.-Contar de 1000 a 0 " << std::endl;
         std::cin >> opc; 
         switch (opc)
         {
@@ -89,7 +89,7 @@ int main()
             }
             break;
         case 3: // Contar de 10 en 10
-            std::cout << "Estas en el contador de 10 X 10" << std::endl;   
+            std::cout << "Estas en el contador de 10 X 10 hasta 1000" << std::endl;   
             for (int i = 10; i < 100; i++)
             {
                 std::cout << i << "";
@@ -100,12 +100,20 @@ int main()
                 std::cout << std::endl;
             }
             break;
+        case 4: // Contar de 1000 a 0
+            std::cout << "Contador de 1000 a 0" << std::endl; 
+            while (1000 > contador) {
+
+                std::cout << contador + 1000 << std::endl;
+                contador = contador - 1;
+                std::cin >> Space;
+            }
+            break;
         default:
             std::cout << "Opcion no valida" << std::endl; 
             break;
         }
-        system("pause");
-        system("cls");
+      
     }
 
 
