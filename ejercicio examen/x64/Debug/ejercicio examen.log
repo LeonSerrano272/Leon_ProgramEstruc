@@ -1,0 +1,72 @@
+﻿  ejercicio examen.cpp
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(8,5): error C2062: tipo 'bool' inesperado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(9,7): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(9,12): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(10,7): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(10,12): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(11,7): error C2039: "cin": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(11,11): error C2065: 'cin': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(11,14): warning C4804: '>>': uso no seguro del tipo 'bool' en la operación
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(12,7): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(12,12): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(13,7): error C2039: "cin": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(13,11): error C2065: 'cin': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(13,14): warning C4804: '>>': uso no seguro del tipo 'bool' en la operación
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(14,7): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(14,12): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(15,7): error C2039: "cin": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(15,11): error C2065: 'cin': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(15,14): error C2065: 'respiracion': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(16,19): error C2065: 'respiracion': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(17,8): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(17,13): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(17,44): error C2039: "endl": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(17,48): error C2065: 'endl': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(19,8): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(19,13): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(19,48): error C2039: "endl": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(19,52): error C2065: 'endl': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(21,8): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(21,13): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(21,47): error C2039: "endl": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(21,51): error C2065: 'endl': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(23,8): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(23,13): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(23,47): error C2039: "endl": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(23,51): error C2065: 'endl': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(24,6): error C2065: 'respiracion': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(25,8): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(25,13): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(25,47): error C2039: "endl": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(25,51): error C2065: 'endl': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(26,11): error C2065: 'respiracion': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(27,8): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(27,13): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(27,48): error C2039: "endl": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(27,52): error C2065: 'endl': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(28,6): error C2065: 'respiracion': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(29,8): error C2039: "cout": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(29,13): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(29,48): error C2039: "endl": no es un miembro de "std"
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\predefined C++ types (compiler internal)(343,11): message : vea la declaración de 'std'
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\ejercicio examen\ejercicio examen.cpp(29,52): error C2065: 'endl': identificador no declarado
