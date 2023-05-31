@@ -19,42 +19,42 @@ int main()
     int Grupo = 0;
     int Semi = 0;
     int Final = 0;
-    std::cout << "Bienvenidos al torneo de las artes marciales!!!   \n  ¿Cuantos peleadores participaran?" << std::endl;
+    std::cout << "Bienvenidos al torneo de las artes marciales!!!   \n¿Cuantos peleadores participaran?" << std::endl;
     std::cin >> Jug;
     std::cout << "Genial! Participaremos " << Jug << " peleadores \n";
-    std::cout << "Ahora dime como pelearemos? \n 1) Royal rumble \n2) Eliminatoria Directa \n3) Grupos, semifinal y final \n" << std::endl;
+    std::cout << "Ahora dime como pelearemos? \n1) Royal rumble \n2) Eliminatoria Directa \n3) Grupos, semifinal y final \n" << std::endl;
     std::cin >> MejorP;
     switch (MejorP)
     {
     case 1:
-            std::cout << "De acuerdo! \n El ultimo hombre en pie gana!\n" << std::endl;
-        for (int i = 1; i < Jug; i++)
-        {
-            Rondas = (Jug - i) + MejorP;
-            std::cout << "Jugador elimina a  " << MejorP << " jugador!" << std::endl;
-        }
+            std::cout << "De acuerdo! \nEl ultimo hombre en pie gana!\n" << std::endl;
+            MejorP = (Jug - 1);
+            {
+                std::cout << "Pelearas contra " << MejorP << " peleadores al mismo tiempo, suerte!" << std::endl;
+            }
             break;
 
+
     case 2:
-        MejorP = (Jug - 1);
         {
+        int MejorP2 = (Jug / 2); 
             std::cout << "Eliminacion Directa entonces! \n";
-            std::cout << "Pelearas  " << MejorP << " veces, suerte!" << std::endl;
+            std::cout << "Serán " << MejorP2  << " rondas, pierde una y serás eliminado, mucha suerte!" << std::endl;
         }
         break;
-
 
     case 3:
     {
         Grupo = (Jug / 2);
-        Final = Jug / Jug;
-        Semi = Jug / Jug / Jug;
+        int Jug2 = (Grupo / 2); 
+        Final = (Jug2); 
+        int Jug3 = (Final / 2); 
+        Semi = (Jug3); 
       
         std::cout << "Peledores a sus respectivos grupos! \n";
-        std::cout << "Seran " << Grupo  << " Peleas en la primera ronda " << std::endl;
-        std::cout << "Despues " << Final << " Peleas en cuartos de final" << std::endl;  
-        std::cout << "Luego " << Semi << " Peleas en Semifinales" << std::endl;  
-        std::cout << "Y finalmente 1 contra 1 en la final" << std::endl;  
+        std::cout << "Seran " << Grupo  << "  Peleas en cuartos de final " << std::endl;
+        std::cout << "Despues " << Final << " Peleas en Semifinales " << std::endl;  
+        std::cout << "Y por ultimo " << Semi << " en la final " << std::endl;  
         }
         break;
 
@@ -63,6 +63,7 @@ int main()
 
         break;
         }
+
     }
 
 
