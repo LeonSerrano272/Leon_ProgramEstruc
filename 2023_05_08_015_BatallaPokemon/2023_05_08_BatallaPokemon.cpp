@@ -3,67 +3,68 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
-using namespace std;
 
 // Estructura para representar un Pokémon
-struct Pokemon {
-    string nombre;
-    int hp;
-    string habilidades[4]; 
-};
-
+struct Pokemon
+{
+    std::string nombre;
+    int hp; 
+    std::string habilidades[4];
+}; 
 int main() {
-    // Inicializar la semilla para generar números aleatorios
-    srand(time(0));
+    system("Color 02");
+    setlocale(LC_ALL, "es_MX.UTF-8"); 
+    // Semilla para generar numeros aleatorios
+    srand(time(0)); 
 
-    // Crear un array de estructuras de Pokémon
+    //  Arreglo de estructuras para el Pokémon
     Pokemon pokemones[5];
 
-    // Asignar información a cada Pokémon
+    // Información de cada Pokémon
     pokemones[0] = { "Pikachu", 100, {"Impactrueno", "Rayo", "Ataque Rápido", "Trueno"} };
     pokemones[1] = { "Charizard", 120, {"Lanzallamas", "Garra Dragón", "Vuelo", "Giro Fuego"} };
     pokemones[2] = { "Blastoise", 110, {"Hidrobomba", "Surf", "Rayo Hielo", "Pistola Agua"} };
     pokemones[3] = { "Venusaur", 110, {"Látigo Cepa", "Rayo Solar", "Terremoto", "Hoja Afilada"} };
-    pokemones[4] = { "Jolteon", 90, {"Ataque Rápido", "Doble Patada", "Rayo Pin", "Onda Trueno"} };
+    pokemones[4] = { "Jolteon", 100, {"Ataque Rápido", "Doble Patada", "Rayo Pin", "Onda Trueno"} }; 
 
-    // Mostrar la lista de Pokémon disponibles
-    cout << "Selecciona tu Pokémon: " << endl;
+    // Lista de Pokémon disponibles
+    std::cout << "Selecciona tu Pokémon: " << std::endl;
     for (int i = 0; i < 5; i++) {
-        cout << i + 1 << ". " << pokemones[i].nombre << endl;
+        std::cout << i + 1 << ". " << pokemones[i].nombre << std::endl;
     }
 
     // Solicitar al usuario que seleccione un Pokémon
     int seleccion;
-    cout << "Ingresa el número correspondiente al Pokémon que deseas: ";
-    cin >> seleccion;
+    std::cout << "Ingresa el número correspondiente al Pokémon que deseas: ";
+    std::cin >> seleccion;
 
-    // Validar la selección del usuario
+    // Guardar el Pokéomon del usuario
     if (seleccion >= 1 && seleccion <= 5) {
         Pokemon miPokemon = pokemones[seleccion - 1];
 
-        // Generar un índice aleatorio para seleccionar el Pokémon oponente
-        int indiceOponente;
+        // Generar el Pokémon enemigo 
+        int POponente;
         do {
-            indiceOponente = rand() % 5;
-        } while (indiceOponente == seleccion - 1);
+            POponente = rand() % 5;
+        } while (POponente  == seleccion - 1);
 
-        Pokemon pokemonOponente = pokemones[indiceOponente];
+        Pokemon pokemonOponente = pokemones[POponente];
 
-        cout << "\n¡Comienza la batalla!" << endl;
-        cout << "Tu " << miPokemon.nombre << " vs " << pokemonOponente.nombre << endl;
-        cout << "-------------------------" << endl;
+        std::cout << "\n¡Comienza la batalla!" << std::endl;
+        std::cout << "Tu " << miPokemon.nombre << " vs " << pokemonOponente.nombre << std::endl; 
+        std::cout << "-------------------------" << std::endl; 
 
         // Batalla
         while (miPokemon.hp > 0 && pokemonOponente.hp > 0) {
             // Turno del jugador
-            cout << "\n¡Tu turno!" << endl;
-            cout << "Elige una habilidad para atacar: " << endl;
+            std::cout << "\n¡Tu turno!" << std::endl ;
+            std::cout << "Elige una habilidad para atacar: " << std::endl; 
             for (int i = 0; i < 4; i++) {
-                cout << i + 1 << ". " << miPokemon.habilidades[i] << endl;
+                std::cout << i + 1 << ". " << miPokemon.habilidades[i] << std::endl; 
             }
             int habilidadSeleccionada;
-            cout << "Ingresa el número correspondiente a la habilidad que deseas utilizar: ";
-            cin >> habilidadSeleccionada;
+            std::cout << "Ingresa el número correspondiente a la habilidad que deseas utilizar: ";
+            std::cin >> habilidadSeleccionada;
 
             // Validar la selección de habilidad del jugador
             if (habilidadSeleccionada >= 1 && habilidadSeleccionada <= 4) {
@@ -75,45 +76,45 @@ int main() {
                 int ataqueOponente = habilidadOponente;
 
                 // Calcular el daño
-                int danioJugador = rand() % 20 + 10;
+                int danioJugador  = rand() % 20 + 10;
                 int danioOponente = rand() % 20 + 10;
 
                 // Aplicar el daño
-                pokemonOponente.hp -= danioJugador;
-                miPokemon.hp -= danioOponente;
+                pokemonOponente.hp -= danioJugador; 
+                miPokemon.hp -= danioOponente;   
 
                 // Mostrar resultados del turno
-                cout << "\nAtacaste a " << pokemonOponente.nombre << " con " << miPokemon.habilidades[ataqueJugador] << endl;
-                cout << "Causaste " << danioJugador << " de daño." << endl;
-                cout << pokemonOponente.nombre << " te atacó con " << pokemonOponente.habilidades[ataqueOponente] << endl;
-                cout << "Recibiste " << danioOponente << " de daño." << endl;
+                std::cout << "\nAtacaste a " << pokemonOponente.nombre << " con " << miPokemon.habilidades[ataqueJugador] << std::endl; 
+                std::cout << "Causaste " << danioJugador << " de daño." << std::endl; 
+                std::cout << pokemonOponente.nombre << " te atacó con " << pokemonOponente.habilidades[ataqueOponente] << std::endl;
+                std::cout << "Recibiste " << danioOponente << " de daño." << std::endl; 
 
                 // Mostrar estado de los Pokémon
-                cout << "\nEstado actual:" << endl;
-                cout << "Tu " << miPokemon.nombre << " - HP: " << miPokemon.hp << endl;
-                cout << pokemonOponente.nombre << " - HP: " << pokemonOponente.hp << endl;
+                std::cout << "\nEstado actual:" << std::endl; 
+                std::cout << "Tu " << miPokemon.nombre << " - HP: " << miPokemon.hp << std::endl; 
+                std::cout << pokemonOponente.nombre << " - HP: " << pokemonOponente.hp << std::endl;  
             }
             else {
-                cout << "Habilidad inválida. Selecciona un número válido." << endl;
+                std::cout << "Habilidad inválida. Selecciona un número válido." << std::endl; 
             }
         }
 
         // Mostrar el resultado de la batalla
         if (miPokemon.hp <= 0) {
-            cout << "\n¡Perdiste la batalla! Mejor suerte la próxima vez." << endl;
+            std::cout << "\n¡Perdiste la batalla! Mejor suerte la próxima vez." << std::endl; 
         }
         else {
-            cout << "\n¡Ganaste la batalla! ¡Eres un maestro Pokémon!" << endl;
+            std::cout << "\n¡Ganaste la batalla! ¡Eres un maestro Pokémon!" << std::endl;
         }
     }
     else {
-        cout << "Selección inválida. Selecciona un número válido." << endl;
+        std::cout << "Selección inválida. Selecciona un número válido." << std::endl; 
     }
 
-    // Preguntar al usuario si desea jugar nuevamente
+    // Pregunta al usuario si desea jugar nuevamente
     char opcion;
-    cout << "\n¿Deseas jugar nuevamente? (S/N): ";
-    cin >> opcion;
+    std::cout << "\n¿Deseas jugar nuevamente? (S/N): ";
+    std::cin >> opcion;
 
     // Validar la respuesta del usuario
     if (opcion == 'S' || opcion == 's') {
@@ -121,7 +122,7 @@ int main() {
         main();
     }
     else {
-        cout << "¡Gracias por jugar! ¡Hasta luego!" << endl;
+        std::cout << "¡Gracias por jugar! ¡Hasta luego!" << std::endl; 
     }
 
     return 0;
