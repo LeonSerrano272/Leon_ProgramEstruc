@@ -1,0 +1,3 @@
+﻿  2023_05_08_BatallaPokemon.cpp
+C:\Users\Aker1\OneDrive\Escritorio\Leon_ProgramEstruc\2023_05_08_015_BatallaPokemon\2023_05_08_BatallaPokemon.cpp(17,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  2023_05_08_BatallaPokemon.vcxproj -> C:\Users\Aker1\OneDrive\Escritorio\Leon_ProgramEstruc\2023_05_08_015_BatallaPokemon\x64\Debug\2023_05_08_BatallaPokemon.exe
