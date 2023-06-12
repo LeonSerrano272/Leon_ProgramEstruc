@@ -9,7 +9,7 @@ int main()
     system("Color 02"); 
     std::string Titulo[5];
     std::string Autor[5]; 
-    int Fecha[5]; 
+    int Fecha[5];  
     //Captura de datos
     std::cout << "Hola, por favor registra tus libros favoritos!" << std::endl; 
     for (int i = 0; i < 5; i++)
