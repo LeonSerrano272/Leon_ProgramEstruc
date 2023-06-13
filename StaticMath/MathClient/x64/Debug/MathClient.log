@@ -1,0 +1,5 @@
+﻿MathClient.obj : error LNK2019: símbolo externo "public: static double __cdecl MathLibrary::Arithmetic::Add(double,double)" (?Add@Arithmetic@MathLibrary@@SANNN@Z) sin resolver al que se hace referencia en la función main
+MathClient.obj : error LNK2019: símbolo externo "public: static double __cdecl MathLibrary::Arithmetic::Subtract(double,double)" (?Subtract@Arithmetic@MathLibrary@@SANNN@Z) sin resolver al que se hace referencia en la función main
+MathClient.obj : error LNK2019: símbolo externo "public: static double __cdecl MathLibrary::Arithmetic::Multiply(double,double)" (?Multiply@Arithmetic@MathLibrary@@SANNN@Z) sin resolver al que se hace referencia en la función main
+MathClient.obj : error LNK2019: símbolo externo "public: static double __cdecl MathLibrary::Arithmetic::Divide(double,double)" (?Divide@Arithmetic@MathLibrary@@SANNN@Z) sin resolver al que se hace referencia en la función main
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\StaticMath\x64\Debug\MathClient.exe : fatal error LNK1120: 4 externos sin resolver
