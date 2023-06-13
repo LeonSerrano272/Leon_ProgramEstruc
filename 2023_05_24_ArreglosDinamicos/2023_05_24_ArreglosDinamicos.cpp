@@ -27,12 +27,10 @@ int main()
         }
         std::cout << "TITULO  " << i << std::endl;
        getline (std::cin, titulos[i]); 
-    }
-    for (int i = 0; i < size; i++)
-    {
         std::cout << "AUTORES  " << i << std::endl;
       getline (std::cin, autores[i]); 
     }
+   
     //Imprime la informacion 
     for (int i = 0; i < size; i++)
     {

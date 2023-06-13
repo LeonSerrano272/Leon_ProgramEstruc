@@ -1,103 +1,96 @@
-// 2023_05_03_011_AdivinaQuien.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
 #include <iostream>
-#include <cmath>
-#include <stdlib.h>
 
 
-int main()
+int main() 
 {
-    while (true)
-    {
+    system("Color 02");
+    setlocale(LC_ALL, "es_MX.UTF-8"); 
+    std::string deportePensado;
 
-        bool aux = false;
-        std::cout << "Akinator de deportes. (Utiliza *0 para NO y *1 para SI)" << std::endl;
-        std::cout << "El deporte que piensas se juega con balon?? " << std::endl;
-        std::cin >> aux;
+    // Hacer preguntas para adivinar el deporte pensado
+    std::cout << "Piensa en un deporte (fútbol, baloncesto, tenis, natación, atletismo)." << std::endl;
+    std::cout << "Responde 's' para sí y 'n' para no." << std::endl;
 
-        if (aux == true) //equipo de 5
-        {
-            std::cout << "El equipo es de 5 jugadores por equipo?" << std::endl;
-            std::cin >> aux;
-        }
-        if (aux == true) //Balon basket
-        {
-            std::cout << "El balón es pesado en comparacion de otros?" << std::endl;
-            std::cin >> aux;
-        }
-        if (aux == true) //Canasta
-        {
-            std::cout << "El balon entra en una canasta alta?" << std::endl;
-            std::cin >> aux;
-        }
-        if (aux == true) //Resultado 1
-        {
-            std::cout << "Tu deporte es baloncesto" << std::endl;
-            system("PAUSE");
+    // Pregunta 1
+    std::cout << "¿El deporte requiere el uso de una pelota? (s/n): ";
+    char respuesta;
+    std::cin >> respuesta;
 
-            return 0;
-        }
-        else (aux == false); //Si no se juega con 5 jugadores por equipo
-        {
-            std::cout << "El equipo es de 6 jugadores?" << std::endl;
-            std::cin >> aux;
-        }
-        if (aux == true) //Balon de volley
-        {
-            std::cout << "El balón es muy ligero?" << std::endl;
-            std::cin >> aux;
-        }
-        if (aux == true) //Malla de volley
-        {
-            std::cout << "El balón se pasa a traves de una red?" << std::endl; 
-            std::cin >> aux; 
-        }
-        if (aux == true) //Punto en volleyball
-        {
-            std::cout << "Si el balon toca el piso es punto para el que logro hacer que el otro equipo se le cayera?" << std::endl; 
-            std::cin >> aux; 
-        }
-        if (aux == true) //Resultado 2
-        {
-            std::cout << "Tu deporte es Volleyball" << std::endl;
-            system("PAUSE");
+    if (respuesta == 's') {
+        // Pregunta 3
+        std::cout << "¿Se juega en equipo? (s/n): ";
+        std::cin >> respuesta;
 
-            return 0;
-        }
-        else (aux == false);  //Si no se juega de 6 jugadores por equipo
-        {
-            std::cout << "El equipo es de 11 jugadores por equipo?" << std::endl;  
-            std::cin >> aux; 
-        }
-        if (aux == true) //Balon de futbol
-        {
-            std::cout << "El balon es duro pero no tan grande como uno de baloncesto?" << std::endl; 
-            std::cin >> aux; 
-        }
-        if (aux == true) //Cancha de futbol
-        {
-            std::cout << "Se juega en una cancha con pasto?" << std::endl; 
-            std::cin >> aux;
-        }
-        if (aux == true) //Porteria de futbol
-        {
-            std::cout << "Se tiene que meter el balón en una porteria?" << std::endl; 
-            std::cin >> aux; 
-        }
-        if (aux == true) //Resultado 2
-        {
-            std::cout << "Tu deporte es fubol" << std::endl;  
-            system("PAUSE");
+        if (respuesta == 's') {
+            // Pregunta 2
+            std::cout << "¿El deporte se juega en un campo de césped? (s/n): ";
+            std::cin >> respuesta;
 
-            return 0;
+            if (respuesta == 's') {
+                deportePensado = "fútbol";
+            }
+            else {
+                // Pregunta 4
+                std::cout << "¿El deporte se juega en una cancha con aros? (s/n): ";
+                std::cin >> respuesta;
+                if (respuesta == 's') {
+                    // Pregunta 5
+                    std::cout << "¿Es un balón pesado? (s/n): ";
+                    std::cin >> respuesta;
+
+                    deportePensado = "baloncesto";
+                }
+                else {
+                    // Pregunta 6
+                    std::cout << "¿Se utilizan raquetas? (s/n): ";
+                    std::cin >> respuesta;
+
+                    if (respuesta == 's') {
+                        std::cout << "¿Se utiliza una pelota pequeña? (s/n):";
+                        std::cin >> respuesta;
+
+                        if (respuesta == 's') {
+                            deportePensado = "tenis";
+                        }
+                    }
+                }
+            }
         }
-        else (aux == false); //Si es individual
-        {
-            std::cout << "Es un deporte individual??" << std::endl; 
-            std::cin >> aux; 
-        }
-
-
-
     }
-}
+    else {
+        // Pregunta 7
+        std::cout << "¿El deporte se realiza en una piscina? (s/n): ";
+        std::cin >> respuesta;
+
+        if (respuesta == 's') {
+            std::cout << "¿Se utilizan principalmente los brazos? (s/n):";
+            std::cin >> respuesta;
+
+            if (respuesta == 's') {
+                deportePensado = "natación";
+
+            }
+        }
+        else {
+            // Pregunta 8
+            std::cout << "¿Se realiza en campos de tierra? (s/n):";
+            std::cin >> respuesta;
+
+            if (respuesta == 's') {
+                std::cout << "¿Existen diversas modalidades dentro del mismo? (s/n):";
+                std::cin >> respuesta;
+
+                if (respuesta == 's') {
+                    deportePensado = "atletismo";
+                }
+            }
+
+
+        }
+    }
+        // Mostrar el deporte adivinado
+        std::cout << "\nEl deporte que pensaste es: " << deportePensado << std::endl; 
+    
+ }    
+
+ 

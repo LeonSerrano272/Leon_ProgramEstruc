@@ -2,35 +2,86 @@
 //
 
 #include <iostream>
-#include <random> 
+#include <random>
+
 int main()
-{ 
-	//Practica de matrices 
-	srand(time(NULL)); 
-	int mat[6][6]; 
-		for (int i = 0; i < 3; i++)//ciclo para acceder a filas
-		{
-			for (int j = 0; j < 3; j++)//ciclo para acceder a columnas
-			{
-				mat[i][j] = rand() % 10; 
-			}
-		}
-	//Imprimir toda la matriz 
-	for (int i = 0; i < 3; i++)//ciclo para acceder a filas
-	{
-		for (int j = 0; j < 3; j++)//ciclo para acceder a columnas
-		{
-			std::cout << mat[i][j] << " ";
-		}
-		std::cout << std::endl; 
-	}
+{
+   std::srand(time(NULL)); // Semillero - Toma el reloj para generar un #aleatorio 
+    /*
+    int edades[100][100];
+    int filas = (sizeof(edades) / sizeof(edades[0]));
+    std::cout << "Filas: "<<filas <<std::endl;
+    int columnas = (sizeof(edades[0]) / sizeof(edades[0][0]));
+    std::cout << "Columnas: " << columnas;
+// Imprimir el apendice de cada sizeof
+    //Sizeof edades, edades[], edades[][]
+    */
+
+
+
+    int opc = 0; 
+    std::cout << "Ingresa el tipo de matriz a imprimir 1) 3x3 2) 5x5 3) 10x10" << std::endl;  
+    std::cin >> opc; 
+    switch (opc)
+    {
+    case 1: 
+        std::cout << "Matriz 3x3" << std::endl; 
+        int matriz[3][3]; 
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                matriz[i][j] = rand() % 10; 
+            }
+        }
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                std::cout << matriz[i][j] << " "; 
+            }
+            std::cout << std::endl; 
+        }  
+        break; 
+    case 2:
+        std::cout << "Matriz 5x5" << std::endl;
+        int matriz2[5][5]; 
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 5; j++)
+            {
+                matriz2[i][j] = rand() % 10; 
+            }
+        }
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 5; j++)
+            {
+                std::cout << matriz2[i][j] << " "; 
+            }
+            std::cout << std::endl; 
+        }
+
+        break; 
+    case 3:
+        std::cout << "Matriz 10x10" << std::endl;
+        int matriz3[10][10];
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+                matriz3[i][j] = rand() % 10; 
+            }
+        }
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+                std::cout << matriz3[i][j] << " "; 
+            }
+            std::cout << std::endl; 
+        }
+        break; 
+
+    }
 }
-	//ejemplos sizeof
-	//int edades[5][7];
-	//int filas = (sizeof(edades) / sizeof(edades[0]));
-	//std::cout << "Filas:  " << sizeof(filas)<< std::endl; 
-	//int columnas = (sizeof(edades[0]) / sizeof(edades[0][0])); 
-	//std::cout << "Columnas: " << sizeof(columnas) << std::endl; 
-	//std::cout << "Edades:  " << sizeof(edades) << std::endl; 
-	// Imprimir el apendice de cada sizeof
-	//sizeof edades, edades[], edades[][]. 
