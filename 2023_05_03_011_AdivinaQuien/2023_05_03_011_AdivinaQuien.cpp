@@ -91,6 +91,11 @@ int main()
 
             return 0;
         }
+        else (aux == false); //Si es individual
+        {
+            std::cout << "Es un deporte individual??" << std::endl; 
+            std::cin >> aux; 
+        }
 
 
 
