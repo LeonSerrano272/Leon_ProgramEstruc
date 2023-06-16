@@ -1,4 +1,1 @@
-﻿  2023_06_05_Prueba.cpp
-C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProramEstruc.2\Leon_ProgramEstruc\Trabajos en casa\2023_06_05_SerranoZárateMathiasLeón_ZAP875_CalculadoraBinario\2023_06_05_Prueba\2023_06_05_Prueba.cpp(10,36): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProramEstruc.2\Leon_ProgramEstruc\Trabajos en casa\2023_06_05_SerranoZárateMathiasLeón_ZAP875_CalculadoraBinario\2023_06_05_Prueba\2023_06_05_Prueba.cpp(13,27): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
-  2023_06_05_Prueba.vcxproj -> C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProramEstruc.2\Leon_ProgramEstruc\Trabajos en casa\2023_06_05_SerranoZárateMathiasLeón_ZAP875_CalculadoraBinario\x64\Debug\2023_06_05_Prueba.exe
+﻿  2023_06_05_Prueba.vcxproj -> C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProramEstruc.2\Leon_ProgramEstruc\Trabajos en casa\2023_06_05_SerranoZárateMathiasLeón_ZAP875_CalculadoraBinario\x64\Debug\2023_06_05_Prueba.exe
