@@ -16,7 +16,7 @@ int main() {
 
     std::cout << std::endl;
     std::cout << "¡Excelente elección, " << nombre << "! Tu misión es detener a un villano llamado Doctor Caos, quien está a punto de destruir la ciudad." << std::endl;
-    std::cout << "Tienes dos opciones para enfrentarlo: atacarlo directamente o encontrar su punto débil." << std::endl;
+    std::cout << "Tienes tres opciones para enfrentarlo: atacarlo directamente, encontrar su punto débil, o Huír." << std::endl;
 
     int opcion;
     std::cout << std::endl;
@@ -63,7 +63,7 @@ int main() {
     std::cout << "Después de salvar la ciudad, eres aclamado como el nuevo héroe y la gente te admira." << std::endl;
     std::cout << "Sin embargo, tu fama atrae la atención de otros villanos." << std::endl;
     std::cout << "Un poderoso villano llamado Sombra Suprema aparece y desafía tu autoridad como héroe." << std::endl;
-    std::cout << "Tienes dos opciones para enfrentar a Sombra Suprema: usar tu fuerza bruta o usar tu astucia." << std::endl;
+    std::cout << "Tienes 3 opciones para enfrentar a Sombra Suprema: usar tu fuerza bruta, usar tu astucia o Huír" << std::endl;
 
     std::cout << std::endl;
     std::cout << "¿Qué deseas hacer?" << std::endl;
