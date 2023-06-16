@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\ALUMNO\Desktop\LEON_PROGRAM\Leon_ProgramEstruc-20230419T130825Z-001\Leon_ProgramEstruc\DesktopApp\x64\Debug\DesktopApp.exe : fatal error LNK1120: 1 externos sin resolver
